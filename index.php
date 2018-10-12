@@ -1,6 +1,6 @@
 <?php require_once 'config.php'; ?>
 <?php require_once DBAPI; ?>
-<?php include(HEADER_TEMPLATE); ?> <!--Importando o header-->
+<?php include(HEADER_TEMPLATE); ?> <!--Importando o header e inserindo na página, ou seja, contruindo-->
 <?php  $db = open_database();?>
 
 <h1>Dashboard</h1>
